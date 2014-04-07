@@ -3,7 +3,7 @@ package xmlvalidator;
 import java.util.*;
 
 public class BasicStringStack implements StringStack {
-	ArrayList<String> stack = new ArrayList<String>();
+	private ArrayList<String> stack = new ArrayList<String>();
 
 	@Override
 	public void push(String item) {
